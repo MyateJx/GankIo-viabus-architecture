@@ -1,10 +1,10 @@
-# Gank.io-viabus-architecture
-
 # Gank.io Viabus 重构版
 
 **介绍**
 ---------
 一款基于Gank.io重构的客户端。项目采用  Viabus + Retrofit + RxJava 开发。首页布局样式大致参考掘金客户端。
+
+项目重构思路请参考：[Android：你还在等那个，手把手带你重构的人出现吗？](https://www.jianshu.com/p/5de4c55c9d4e)
 
 **应用截图**
 -----------
@@ -41,9 +41,8 @@
 * 流式布局：Flexbox-layout 
 * 底部导航：PagerBottomTabStrip https://github.com/tyzlmjj/PagerBottomTabStrip
 
-**参考**
+**更多参考**
 -----------
-* 项目重构思路请参考：[Android：你还在等那个 手把手带你重构的人出现吗？](https://www.jianshu.com/p/5de4c55c9d4e)
 
 * 日夜切换参考了 https://github.com/hefuyicoder/ZhihuDaily 项目以及 http://www.jianshu.com/p/3b55e84742e5 这篇文章。效果非常不错
 
