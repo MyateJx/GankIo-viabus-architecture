@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:transitionName="@string/translateName"
+            app:backgroundTint="@color/colorPrimary"
+            app:srcCompat="@drawable/ic_search_black_24dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/mainContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:visibility="gone"
+                app:theme="@style/toolbar_theme"
+                app:titleTextAppearance="@style/TitleText"
+                app:titleTextColor="@android:color/white"
+                >
+
+                <RelativeLayout
+                    android:id="@+id/toolbarlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:layout_toLeftOf="@+id/tv_search"
+                        android:background="@drawable/shape_edit"
+                        >
+
+                        <EditText
+                            android:id="@+id/edit_search"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@null"
+                            android:hint="来点什么"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/gray"
+                            android:textSize="13sp"></EditText>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_search"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:text="@string/search"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"/>
+                </RelativeLayout>
+            </android.support.v7.widget.Toolbar>
+
+            <FrameLayout
+                android:id="@+id/fragmentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/toolbar">
+            </FrameLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+</layout>
+

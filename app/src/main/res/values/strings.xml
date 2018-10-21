@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">干果</string>
+
+    <string name="title1">首页</string>
+    <string name="title2">android</string>
+    <string name="title3">ios</string>
+    <string name="title4">前端</string>
+
+    <string name="main2">福利</string>
+    <string name="main3">收藏</string>
+
+
+    <string name="translateName">translate_search</string>
+    <string name="search">搜索</string>
+    <string name="translate_mz">translate_mz</string>
+
+
+</resources>
