@@ -5,7 +5,7 @@
 
 一款基于Gank.io重构的客户端。项目采用  Viabus + Retrofit + RxJava 开发。首页布局样式大致参考掘金客户端。
 
-项目重构思路请参考：[Android：你还在等那个，手把手带你重构的人出现吗？](https://www.jianshu.com/p/22e110193ea9)
+项目重构思路请参考：[Android：你还在等那个，手把手带你重构的人出现吗？](https://juejin.im/post/5bcd58b6e51d45404c71d23f)
 
 欢迎 Star & Fork ~
 
